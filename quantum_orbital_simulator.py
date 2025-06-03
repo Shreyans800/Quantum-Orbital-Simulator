@@ -16,7 +16,7 @@ R_inf = 1.097e7  # Rydberg constant (1/m)
 element_names = {1: "Hydrogen", 2: "Helium⁺", 3: "Lithium²⁺", 4: "Beryllium³⁺"}
 
 st.set_page_config(layout="wide")
-st.title(" ⚛️ Qantum Orbital Simulator: Orbitals, Transitions & Spectra")
+st.title(" ⚛️ Quantum Orbital Simulator: Orbitals, Transitions & Spectra")
 
 # Sidebar inputs
 Z = st.sidebar.slider("Atomic Number (Z)", 1, 4, 1)
